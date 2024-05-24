@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: black;
+}
+ol li {
+    color: blue;
+}
+p {
+    background-color: white;
+}
+ul li {
+    color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header {
+    display: flex;
+    background-color: rgba(34, 33, 31, 0.85);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2em;
+}
+header i {
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+header nav ul {
+    display: flex;
+    gap: 1.2em;
+}
+header nav ul li a {
+    color: white;
+}
